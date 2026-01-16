@@ -1,0 +1,16 @@
+<h1>Main Application</h1>
+<hinv-rooms></hinv-rooms>
+
+@switch (loginType) {
+    @case ('User') {
+        <div>Welcome User!</div>
+    }
+    @case ('Admin') {
+        <div>
+            <hinv-rooms></hinv-rooms>
+        </div>
+    }
+    @default {
+        <div>You are not authorised to view this page</div>
+    }
+}

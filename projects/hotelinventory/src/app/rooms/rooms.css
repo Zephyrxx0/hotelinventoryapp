@@ -1,0 +1,51 @@
+button {
+    display: inline-block;
+    background-color: #000000; /* Black background */
+    color: #ffffff;           /* White text */
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.btn-toggle {
+    display: inline-block;
+    background-color: #333333; /* Dark grey/black button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.btn-toggle:hover {
+    background-color: #000000;
+}
+
+/* Ensuring the text looks clean */
+h1, h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+div {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+.btn-toggle {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}

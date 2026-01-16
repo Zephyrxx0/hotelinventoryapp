@@ -1,0 +1,50 @@
+/* Style for the main container */
+:host {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif; /* Standard clean font */
+    padding: 20px;
+    background-color: #ffffff; /* Ensures total white background */
+    color: #000000;
+    line-height: 1.5;
+}
+
+/* Bold headings without blue lines */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: none; /* Removes the blue line */
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Ensure hidden content stays hidden */
+div[hidden] {
+    display: none;
+}
+
+/* Simple button style (Black/Grey instead of blue) */
+button {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #000;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+button:active {
+    background-color: #555555;
+}
