@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Rooms } from './rooms/rooms';
-import { NgSwitch } from "../../../../node_modules/@angular/common/types/_common_module-chunk"; // Make sure this path is correct
+// import { NgSwitch } from "../../../../node_modules/@angular/common/types/_common_module-chunk"; // Make sure this path is correct
+import { NgSwitch } from '@angular/common'; 
 
 @Component({
   selector: 'app-root',
